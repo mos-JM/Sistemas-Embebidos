@@ -1,0 +1,12 @@
+##############################################################################
+## Filename:          C:/hlocal/hlocal/prac2/prac2/pcores/banner_desp_v1_00_a/data/banner_desp_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Nov 26 17:29:57 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib wrpfifo_v5_01_a  all 
+lib banner_desp_v1_00_a user_logic vhdl
+lib banner_desp_v1_00_a banner_desp vhdl
+lib banner_desp_v1_00_a bannerDesp vhdl

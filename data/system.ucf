@@ -1,0 +1,102 @@
+#NET leds<0> LOC=L5;
+#NET leds<1> LOC=N2;
+#NET leds<2> LOC=M3;
+#NET leds<3> LOC=N1;
+#NET leds<4> LOC=T13;
+#NET leds<5> LOC=L15;
+#NET leds<6> LOC=J13;
+#NET leds<7> LOC=H15;
+#NET "leds<0>" FLOAT;
+#NET "leds<1>" FLOAT;
+#NET "leds<2>" FLOAT;
+#NET "leds<3>" FLOAT;
+#NET "leds<4>" FLOAT;
+#NET "leds<5>" FLOAT;
+#NET "leds<6>" FLOAT;
+#NET "leds<7>" FLOAT;
+
+#NET switches<0> LOC=P12;
+#NET switches<1> LOC=J1;
+#NET switches<2> LOC=H1;
+#NET switches<3> LOC=H3;
+#NET switches<4> LOC=G2;
+#NET switches<5> LOC=K15;
+#NET switches<6> LOC=K16;
+#NET switches<7> LOC=F15;
+#NET "switches<0>" FLOAT;
+#NET "switches<1>" FLOAT;
+#NET "switches<2>" FLOAT;
+#NET "switches<3>" FLOAT;
+#NET "switches<4>" FLOAT;
+#NET "switches<5>" FLOAT;
+#NET "switches<6>" FLOAT;
+#NET "switches<7>" FLOAT;
+
+
+###KEYPAD
+
+NET keypad_0_S_pin<3> loc=F2;
+NET keypad_0_S_pin<3> iostandard=LVCMOS25;
+NET keypad_0_S_pin<2> loc=G4;
+NET keypad_0_S_pin<2> iostandard=LVCMOS25;
+NET keypad_0_S_pin<1> loc=G3;
+NET keypad_0_S_pin<1> iostandard=LVCMOS25;
+NET keypad_0_S_pin<0> loc=G1;
+NET keypad_0_S_pin<0> iostandard=LVCMOS25;
+
+NET keypad_0_R_pin<3> loc=J14;
+NET keypad_0_R_pin<3> iostandard=LVCMOS25;
+NET keypad_0_R_pin<2> loc=H14;
+NET keypad_0_R_pin<2> iostandard=LVCMOS25;
+NET keypad_0_R_pin<1> loc=M4;
+NET keypad_0_R_pin<1> iostandard=LVCMOS25;
+NET keypad_0_R_pin<0> loc=P1;
+NET keypad_0_R_pin<0> iostandard=LVCMOS25;
+
+NET control_motor<0> LOC=L15;
+NET control_motor<1> LOC=L5;
+NET control_motor<2> LOC=N2;
+NET control_motor<3> LOC=M3;
+
+NET sonido LOC=N15;
+
+NET Clk_pin LOC=P8;
+NET "Clk_pin" FLOAT;
+#NET Rst_pin LOC=H4;
+NET Rst_pin LOC=K4;
+NET "Rst_pin" FLOAT;
+
+NET RX_pin LOC=G5;
+NET "RX_pin" FLOAT;
+NET TX_pin LOC=J2;
+NET "TX_pin" FLOAT;
+
+
+### infrarrojos
+#NET code_infrared_pin LOC=D16;
+#NET in_infrared_pin LOC=J14;
+
+#### BANNER
+#H3
+NET row_serial_out_pin loc=H3;	
+NET row_serial_out_pin iostandard=LVCMOS25;
+#G2
+NET row_clk_pin loc=G2;
+NET row_clk_pin iostandard=LVCMOS25;
+
+#P12
+NET col_serial_out_pin loc=P12;
+NET col_serial_out_pin   iostandard=LVCMOS25;
+#J1
+NET col_clk_pin loc=J1;
+NET col_clk_pin iostandard=LVCMOS25;
+#H1
+NET reset_out_pin loc=H1;
+NET reset_out_pin 	 iostandard=LVCMOS25;
+
+NET reset2_out_pin loc=K15;
+NET reset2_out_pin 	 iostandard=LVCMOS25;
+
+### I2C 
+NET SCL LOC= F5;
+NET SDA LOC= D2;
